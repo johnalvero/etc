@@ -198,7 +198,7 @@ def main():
     else: # for csv import
         print(("%s;%s;%s;" % (user, user_id,encryptedPW)))
     
-    raw_input("Press Enter to continue...")
+    #raw_input("Press Enter to continue...")
     return
 
 
