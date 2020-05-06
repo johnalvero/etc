@@ -165,8 +165,8 @@ def main():
     # SSHA564(pass, salt) = SHA256(pass + salt) + salt.
 
     # the salt characters are from: [./a-zA-Z0-9]
-    #pool = "./0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    pool = "a"
+    pool = "./0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    #pool = "a"
     salt = pool[random.randrange(0, len(pool))]
 
     H = hashlib.new(hash_type)
